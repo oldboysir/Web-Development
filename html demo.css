@@ -1,0 +1,69 @@
+body{
+    width: 100vw;
+    background-color: white;
+    color: gray;
+    /* height: 30vh; */
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+     margin: 0;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    font-size: large;
+}
+
+
+.head{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar {
+    background-color: blue;
+    margin: 0 ;
+}
+.navbar ul {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    margin: 0 ;
+}
+.navbar li{
+list-style-type: none;
+padding: 10px;
+color: white;
+/* text-decoration: none; */
+}
+/* nav ul li a {color:white;
+text-decoration: none;
+/* justify-content:space-between ;
+*/
+}
+ nav ul{
+    /* display: flex; */
+  
+    
+ }
+/* 
+nav ul li {
+list-style: none;
+padding: 20px;
+font-weight: 200px;
+font-size: x-large; */
+
+}
+
+
+nav ul li :hover{
+
+/* background-color:blue; */
+
+} */ */ */

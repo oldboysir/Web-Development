@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body {
+    background-color: red;
+    color: #fff;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e50914;
+}
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar .nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.banner {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url(desktop-wallpaper-netflix-logo.jpg) center center/cover no-repeat;
+}
+.banner-content{
+    text-align: center;
+}
+.banner h1 {
+    font-size: 3rem;
+}
+.banner p {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+.banner-buttons button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.banner-buttons button:hover {
+    background-color: #361314;
+}
+.movies{
+    padding: 20px;
+}
+.movies h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.movie-row {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.movie-row img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.movie-row img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #141414;
+    color: gray
+}
+  
