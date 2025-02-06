@@ -1,0 +1,107 @@
+*{
+    font-family: Poppins;
+}
+body{
+    margin: 0;
+    background-color: rgb(44, 44, 44)
+}
+
+li{
+    list-style: none;
+    
+}
+
+.spotify{
+    display: flex;
+}
+.sidebar{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 100vh;
+}
+.sidebar span{
+    font-family: "Playfair Display", serif;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 7px ;
+}
+.sidebar ul{
+    padding-left: 7px ;
+    margin: 10px;
+}
+
+.heading{
+    background-color: rgb(0, 207, 104);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.card1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 7.5px;
+    width: 100%;
+}
+
+.song1{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.songs{
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+
+}
+
+.mainContainer{
+    flex: 1;
+    margin: 10px;
+    ;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(0, 207, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio audio{
+    filter: invert(1);
+}
+.bottom{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    /* left: 0; */
+    padding: 20px;
+    margin: 0;
+    position: fixed;
+}
+.bottom audio{
+    filter: invert(1);
+}
