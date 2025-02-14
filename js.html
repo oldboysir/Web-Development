@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="console.log(`Quantity: ${showQuantity}`);
+    "
+    >
+    Show Quantity</button>
+    <button onclick="
+    showQuantity=showQuantity+1;console.log(`Add to Cart: ${showQuantity}`);
+    "
+    >
+    Add to Cart</button>
+    <button onclick="
+    showQuantity=showQuantity+2;console.log(`+2: ${showQuantity}`);
+    "
+    >
+    +2</button>
+    <button onclick="
+    showQuantity=0;console.log(`Reset Cart: ${showQuantity}`);
+    "
+    >
+    Reset Cart</button>
+    <script>
+    let showQuantity = 0
+    </script>
+</body>
+</html>
